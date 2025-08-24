@@ -4,7 +4,7 @@
     "version": "1",
     "iconUrl": "https://chrome-offline-game.vercel.app/icon.png",
     "homeUrl": "https://chrome-offline-game.vercel.app",
-    "imageUrl": "https://chrome-offline-game.vercel.app/image.GIF",
+    "imageUrl": "https://chrome-offline-game.vercel.app/trex.GIF",
     "splashImageUrl": "https://chrome-offline-game.vercel.app/splash.png",
     "splashBackgroundColor": "#111111",
     "webhookUrl": "https://chrome-offline-game.vercel.app/api/webhook",
