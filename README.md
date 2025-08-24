@@ -86,4 +86,4 @@ Pull requests are welcome! If you spot a bug or want to add a feature, please op
 
 ## License
 
-This miniapp is provided for educational purposes. You are free to modify and use it in your own projects. This repository is not affiliated with Google or Farcaster.
+This miniapp is provided for educational purposes. You are free to modify and use it in your own projects. This repository is not affiliated with Google
