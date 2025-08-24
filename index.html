@@ -35,10 +35,11 @@
 </body>
   <script src="script.js"></script>
   <script>
-  <!-- Farcaster Mini App SDK -->
-  <script type="module">
-    import { sdk } from 'https://esm.sh/@farcaster/miniapp-sdk';
-    sdk.actions.ready({ disableNativeGestures: true });
-  </script>
+<!-- place this after your other scripts -->
+<script type="module">
+  import { sdk } from 'https://esm.sh/@farcaster/miniapp-sdk';
+  // Notify Farcaster that the miniapp is ready
+  sdk.actions.ready({ disableNativeGestures: true });
+</script>
 
 </html>
