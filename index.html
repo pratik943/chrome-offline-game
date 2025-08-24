@@ -35,12 +35,12 @@
 </body>
   <script src="script.js"></script>
   <script>
-    
-<!-- place this after your other scripts -->
-<script type="module">
-  import { sdk } from 'https://esm.sh/@farcaster/miniapp-sdk';
-  // Notify Farcaster that the miniapp is ready
-  sdk.actions.ready({ disableNativeGestures: true });
-</script>
-
+        <script type="module">
+      import { sdk } from 'https://esm.sh/@farcaster/miniapp-sdk';
+      // Wait until the DOM is loaded and the game is initialized before calling ready()
+      window.addEventListener('DOMContentLoaded', () => {
+        sdk.actions.ready({ disableNativeGestures: true });
+      });
+    </script>
+  </body>
 </html>
